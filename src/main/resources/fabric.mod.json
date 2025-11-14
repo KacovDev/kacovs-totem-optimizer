@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "totemoptimizer",
+  "version": "1.0.0",
+  "name": "Totem Optimizer",
+  "description": "a Client-Side mod that Prevents accidental totem unequipping. Includes a toggle command.",
+  "authors": [ "Kacov_" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/totemoptimizer/icon.png",
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "kacov.totemoptimizer.TotemOptimizer"
+    ]
+  },
+
+  "mixins": [
+    "totemoptimizer.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.x"
+  }
+}

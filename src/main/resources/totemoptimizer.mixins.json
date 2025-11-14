@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "kacov.totemoptimizer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "OffhandBlockerMixin",
+    "HandledScreenAccessor"
+  ]
+}
